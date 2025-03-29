@@ -1,7 +1,13 @@
 import logo from "../assets/Khan_Academy-Logo.png";
 import { IoSearchOutline } from "react-icons/io5";
 import "../styles/Navbar.css";
+import { useNavigate } from "react-router-dom";
 const Navbar = () => {
+  const navigate = useNavigate();
+
+  function handleLogin() {
+    navigate("/login");
+  }
   return (
     <>
       <nav className="navbar">
@@ -19,13 +25,25 @@ const Navbar = () => {
         </div>
 
         <div>
-          <img src={logo} alt="" className="logo-style" />
+          <img
+            src={logo}
+            alt=""
+            className="logo-style"
+            onClick={() => navigate("/")}
+          />
         </div>
 
         <div className="btns-div">
           <button className="nav-btns">Donate</button>
-          <button className="nav-btns">Login</button>
-          <button className="nav-btns signup-btn">SignUp</button>
+          <button className="nav-btns" onClick={handleLogin}>
+            Login
+          </button>
+          <button
+            className="nav-btns signup-btn"
+            onClick={() => navigate("/signup")}
+          >
+            SignUp
+          </button>
         </div>
       </nav>
     </>
