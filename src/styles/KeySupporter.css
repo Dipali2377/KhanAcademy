@@ -1,0 +1,28 @@
+.key-supporter-container {
+  padding-top: 30px;
+  padding-left: 180px;
+  padding-right: 180px;
+  padding-bottom: 10px;
+  height: 400px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(192, 192, 192);
+}
+.key-supporter-container h1 {
+  padding-bottom: 40px;
+  padding-top: 40px;
+  font-size: 44px;
+}
+.support-img {
+  height: 32px;
+  width: 189px;
+}
+.supporter-names {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 60px;
+  column-gap: 40px;
+}

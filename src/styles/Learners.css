@@ -1,0 +1,41 @@
+.learner-laptop {
+  padding: 50px;
+}
+.learners-container {
+  padding-top: 30px;
+  padding-left: 180px;
+  padding-right: 180px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.learner-content {
+  gap: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.author {
+  height: 500px;
+  border-radius: 15px -50px 30px -5px;
+  background-color: rgb(240, 237, 231);
+}
+.author-heading {
+  text-align: center;
+  padding-top: 250px;
+}
+
+.profile-img {
+  height: 132px;
+  width: 139px;
+}
+.author-details {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 100px;
+}

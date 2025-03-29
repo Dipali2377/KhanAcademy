@@ -1,0 +1,48 @@
+.teachers-container {
+  padding-top: 30px;
+  padding-left: 180px;
+  padding-right: 180px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.face-img {
+  height: 412px;
+  width: 410px;
+}
+
+.right-div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 20px;
+  padding-left: 40px;
+}
+.right-div h1 {
+  font-size: 44px;
+}
+.right-div p {
+  font-size: 18px;
+}
+.teacher-btn {
+  color: #ffffff;
+  background-color: #1865f2;
+  padding: 0px 16px;
+  height: 40px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+  font-size: 16px;
+  width: 200px;
+}

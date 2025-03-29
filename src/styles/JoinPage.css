@@ -1,0 +1,45 @@
+.btns-list {
+  background-image: url("../assets/background.png");
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 0px;
+  align-items: center;
+}
+
+.join-container {
+  padding-top: 30px;
+  padding-left: 180px;
+  padding-right: 180px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.join-container h1 {
+  font-size: 44px;
+}
+
+.join-btn {
+  color: #ffffff;
+  background-color: #1865f2;
+  padding: 0px 16px;
+  height: 56px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+  font-size: 16px;
+  width: 200px;
+  margin-bottom: 10px;
+  width: 300px;
+}

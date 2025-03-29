@@ -1,0 +1,77 @@
+.logo-style {
+  height: 200px;
+  width: 175px;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+  height: 70px;
+}
+.select-div {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+}
+.explore {
+  font-size: 16px;
+  color: #1865f2;
+  font-weight: bold;
+  border: none;
+}
+.search-btn {
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #909296;
+  padding-left: 16px;
+  height: 40px;
+  align-items: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7px;
+  font-size: 16px;
+  color: #1865f2;
+  font-weight: bold;
+
+  background-color: transparent;
+  cursor: pointer;
+}
+.btns-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+.nav-btns {
+  font-size: 16px;
+  color: #1865f2;
+  font-weight: bold;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.signup-btn {
+  color: #ffffff;
+  background-color: #1865f2;
+  padding: 0px 16px;
+  height: 40px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
