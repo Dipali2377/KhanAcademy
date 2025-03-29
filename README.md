@@ -1,12 +1,43 @@
-# React + Vite
+# KhanAcademy Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the KhanAcademy Clone project!  
+This is a UI development for the KhanAcademy website.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- **User Authentication Pages:**
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  - **Signup & Login** Pages for a personalized experience.
+  - Secure user authentication.
+
+- **Home Page:**
+
+  - A dynamic homepage showcasing sections for Teachers, Learners, Parents.
+
+---
+
+## 🛠️ Technologies Used
+
+- **Frontend:** HTML, CSS, JavaScript (React.js)
+
+## 📂 Project Preview
+
+![Netflix Clone Preview](./src/assets/netflix-clone-preview.jpeg)
+
+## Home 🏡
+
+![Home Page](./src/assets/projectImages/Home.jpeg)
+
+## Hero Page
+
+![Hero Section](./src/assets/projectImages/Hero.jpeg)
+
+## Signup
+
+![Signup Page](./src/assets/projectImages/Signup.jpeg)
+
+## Login
+
+![Login](./src//assets/projectImages/Login.jpeg)
