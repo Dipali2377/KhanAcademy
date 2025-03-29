@@ -24,20 +24,18 @@ This is a UI development for the KhanAcademy website.
 
 ## 📂 Project Preview
 
-![Netflix Clone Preview](./src/assets/netflix-clone-preview.jpeg)
-
 ## Home 🏡
 
 ![Home Page](./src/assets/projectImages/Home.jpeg)
 
-## Hero Page
+## Hero Page 😎
 
 ![Hero Section](./src/assets/projectImages/Hero.jpeg)
 
-## Signup
+## Signup 🔐
 
 ![Signup Page](./src/assets/projectImages/Signup.jpeg)
 
-## Login
+## Login 🔓
 
 ![Login](./src//assets/projectImages/Login.jpeg)
